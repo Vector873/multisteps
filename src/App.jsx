@@ -98,7 +98,9 @@ function App() {
       if (activestep == 3) {
         calculatetotalfee();
       }
-      setactive((a) => a + 1);
+      if (selectedplan != 0) {
+        setactive((a) => a + 1);
+      }
     }
   };
   const calculatetotalfee = () => {
