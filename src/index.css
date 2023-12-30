@@ -29,14 +29,6 @@ body {
   justify-content: center;
   padding-top: 3rem;
 }
-@media screen and(max-width:785px) {
-  .box {
-    grid-template-columns: 20rem;
-  }
-  .leftbox {
-    background-image: url("/src/assets/bg-sidebar-mobile.svg");
-  }
-}
 .step {
   display: grid;
   grid-template-columns: 3.3rem 8rem;
