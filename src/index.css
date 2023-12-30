@@ -61,7 +61,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 1.5rem;
 }
 .innerright {
   height: 28rem;
@@ -316,4 +315,77 @@ body {
   color: hsl(231, 11%, 63%);
   margin-top: -0.6rem;
   text-align: center;
+}
+@media screen and (max-width: 785px) {
+  .maindiv {
+    height: 100%;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    width: 23rem;
+    height: 43rem;
+  }
+  .leftbox {
+    background-image: url("/src/assets/bg-sidebar-mobile.svg");
+  }
+  .step {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+  }
+  .ballsteps {
+    margin-right: 1rem;
+  }
+  .stepno {
+    display: none;
+  }
+  .stepheading {
+    display: none;
+  }
+  .rightbox {
+    padding-top: 4.3rem;
+  }
+  .innerright {
+    height: 22.8rem;
+    width: 22.8rem;
+  }
+  .inputfields input {
+    width: 22rem;
+  }
+  .secstepoptions {
+    display: flex;
+    flex-direction: column;
+  }
+  .structure {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 1rem;
+    height: 6rem;
+    padding-top: 0;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+  }
+  .structure p {
+    margin-bottom: 0;
+  }
+  .finish hr {
+    width: 21rem;
+  }
+}
+@media screen and (max-width: 410px) {
+  .box {
+    width: 18rem;
+  }
+  .inputfields input {
+    width: 17rem;
+  }
+  .finish hr {
+    width: 15rem;
+  }
+  .pickaddons {
+    height: 7rem;
+    padding-right: 0.8rem;
+  }
 }

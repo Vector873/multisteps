@@ -7,9 +7,11 @@ function Plan({ id, icons, heading, fees, selectedplan, setplan, planmethod }) {
       onClick={() => setplan(id)}
     >
       <img src={icons} alt="image not found" />
-      <h3>{heading}</h3>
-      <p>{fees}</p>
-      {planmethod ? <span className="free">2 months free</span> : <></>}
+      <div>
+        <h3>{heading}</h3>
+        <p>{fees}</p>
+        {planmethod ? <span className="free">2 months free</span> : <></>}
+      </div>
     </div>
   );
 }
