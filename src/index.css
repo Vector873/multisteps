@@ -370,6 +370,10 @@ body {
   .structure p {
     margin-bottom: 0;
   }
+  .pickaddons {
+    height: 7rem;
+    padding-right: 1rem;
+  }
   .finish hr {
     width: 21rem;
   }
@@ -383,9 +387,5 @@ body {
   }
   .finish hr {
     width: 15rem;
-  }
-  .pickaddons {
-    height: 7rem;
-    padding-right: 0.8rem;
   }
 }
